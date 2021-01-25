@@ -1,0 +1,175 @@
+body {
+  background-color: hsl(204, 43%, 93%);
+  font-family: 'Karla', sans-serif;
+  font-weight: 400;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  color: hsl(179, 62%, 43%);
+  padding-bottom: 1rem;
+  font-weight: 700;
+}
+
+h5 {
+  font-weight: 700;
+}
+
+.main {
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, .15);
+}
+
+.row {
+  width: 50%;
+  height: 30%;
+  margin: 5% auto;
+  border-radius: 1rem;
+}
+
+/* upper cell */
+.upper-cell {
+  background-color: #fff;
+  padding: 2.5rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  height: 15rem;
+}
+
+.upper-mid {
+  color: hsl(71, 73%, 54%);
+  padding-bottom: 1rem;
+  font-weight: 700;
+}
+
+.upper-low {
+  line-height: 2;
+  color: #cbd1d9;
+}
+
+/* lower cell */
+.lower-heading {
+  color: #f7ffff;
+  padding-bottom: 0.7rem;
+}
+
+/* lower cell left */
+.lower-cell-l {
+  background-color: hsl(179, 62%, 43%);
+  padding: 2.5rem;
+  border-bottom-left-radius: 1rem;
+  height: 18rem;
+}
+
+.price {
+  margin: 0 0 3%;
+  padding-left: 0;
+}
+
+.monthly-price {
+  margin: auto, 0;
+  padding-left: 0;
+  color: #f7ffff;
+  text-align: left;
+}
+
+.per-month {
+  padding: 0;
+}
+
+.per-month-text {
+  color: #6bd7d8;
+  margin: auto 0;
+  padding: 0.5rem 0;
+  width: 10rem;
+}
+
+.full-access {
+  padding: 1rem auto;
+  margin-bottom: 2rem;
+  color: #a2d9e0;
+}
+
+.btn {
+  background-color: hsl(71, 73%, 54%);
+  color: #f7ffff;
+  width: 100%;
+  margin: auto auto 0;
+}
+
+.shadow-btn {
+  Padding: 0;
+  margin: 0;
+  background-color: none;
+}
+
+/* lower cell reft */
+.lower-cell-r {
+  background-color: #4abebd;
+  color: #f7ffff;
+  padding: 2.5rem;
+  border-bottom-right-radius: 1rem;
+  height: 18rem;
+}
+
+.lower-heading {
+  padding-bottom: 1.2rem;
+}
+
+.why-us {
+  line-height: 0.5;
+  color: #9df1f3;
+}
+
+
+/* media query */
+
+@media (max-width: 450px) {
+
+
+
+
+  .row {
+    width: 85%;
+  }
+
+
+  .upper-cell {
+    padding: 2rem;
+    height: 20rem;
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+  }
+
+  .upper-low{
+line-height: 1.7;
+}
+  .lower-cell-l {
+    padding: 2rem;
+   border-radius: 0;
+   height: 17rem;
+
+}
+
+.monthly-price {
+  padding: 0;
+
+}
+
+.per-month-text {
+  text-align: left;
+  padding: 0;
+}
+
+.lower-cell-r {
+  padding: 2rem;
+  border-radius: 0;
+  height: 17rem;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: .5rem;
+
+}
+}
