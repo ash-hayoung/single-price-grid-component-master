@@ -21,9 +21,6 @@ h5 {
 
 .main {
   box-shadow: 0 1rem 1rem rgba(0, 0, 0, .15);
-}
-
-.row {
   width: 50%;
   height: 30%;
   margin: 5% auto;
@@ -93,7 +90,7 @@ h5 {
   color: #a2d9e0;
 }
 
-.btn {
+.btn-css {
   background-color: hsl(71, 73%, 54%);
   color: #f7ffff;
   width: 100%;
